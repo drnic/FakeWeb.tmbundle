@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>FakeWeb.register_uri(:${1:get}, ${2:"http://${3:example.com/test1}"}, :body =&gt; ${10:"Hello World!"})</string>
+	<key>name</key>
+	<string>FakeWeb.register_uri</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>FakeWeb</string>
+	<key>uuid</key>
+	<string>E93F11B3-7B56-494A-B87B-C9FDBC0FC0CB</string>
+</dict>
+</plist>
