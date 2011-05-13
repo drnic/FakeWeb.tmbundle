@@ -2,14 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>content</key>
+	<string>FakeWeb.allow_net_connect = ${1:false}
+</string>
 	<key>name</key>
+	<string>FakeWeb.allow_net_connect</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
 	<string>FakeWeb</string>
-	<key>ordering</key>
-	<array>
-		<string>E93F11B3-7B56-494A-B87B-C9FDBC0FC0CB</string>
-		<string>F66C11C4-96C1-43B0-B1F2-7408EDB56B39</string>
-	</array>
 	<key>uuid</key>
-	<string>0E36DA93-753F-4D3E-9F23-85E0278E6F96</string>
+	<string>F66C11C4-96C1-43B0-B1F2-7408EDB56B39</string>
 </dict>
 </plist>
